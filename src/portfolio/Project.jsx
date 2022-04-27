@@ -21,7 +21,7 @@ function Project() {
                 <img
                   src={item.image}
                   className="projectImage"
-                  alt="myimage"
+                  alt="from database"
                 />
                 <div className="cardTitles">
                   <div className="projectAbout">

@@ -32,7 +32,7 @@ function AboutInfo() {
               className="myImage"
               src={item.image}
               style={{ width: "350px" }}
-              alt='image'
+              alt='dataabe from'
             />
           </div>
           <div className="side1">
