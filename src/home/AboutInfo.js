@@ -45,7 +45,7 @@ function AboutInfo() {
               <Link className="linkBtn" to="/">
                 About me
               </Link>
-                <a className="linkBtn" href={item.resume}   download   ><FileDownloadIcon /> Portfolio</a>
+                <a className="linkBtn" href={item.resume}   download  target={'_blank'}  ><FileDownloadIcon /> Portfolio</a>
             </div>
             <div className="socialNet">
               <a className="links" href="https://github.com/sanjarDev1"  >
