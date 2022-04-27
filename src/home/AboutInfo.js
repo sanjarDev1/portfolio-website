@@ -32,7 +32,7 @@ function AboutInfo() {
               className="myImage"
               src={item.image}
               style={{ width: "350px" }}
-              alt="my image"
+              rel="noreferrer"
             />
           </div>
           <div className="side1">
@@ -44,22 +44,22 @@ function AboutInfo() {
               <Link className="linkBtn" to="/">
                 About me
               </Link>
-                <a className="linkBtn" href={item.resume}  download target='_blank' ><FileDownloadIcon /> Portfolio</a>
+                <a className="linkBtn" href={item.resume}   download  ><FileDownloadIcon /> Portfolio</a>
             </div>
             <div className="socialNet">
-              <a className="links" href="#" target="_blank">
+              <a className="links" href="https://github.com/sanjarDev1"  >
                 <GitHubIcon className="iconSvg" />
               </a>
-              <a className="links" href="#" target="_blank">
+              <a className="links" href="https://www.linkedin.com/in/sanjarbek-qobulov-1778b2218/"  >
                 <LinkedInIcon className="iconSvg" />
               </a>
-              <a className="links" href="#" target="_blank">
+              <a className="links" href="https://www.facebook.com/profile.php?id=100078891471037"  >
                 <FacebookIcon className="iconSvg" />
               </a>
-              <a className="links" href="#" target="_blank">
+              <a className="links" href="https://www.instagram.com/sanjarbekqobulov02/?hl=en"  >
                 <InstagramIcon className="iconSvg" />
               </a>
-              <a className="links" href="#" target="_blank">
+              <a className="links" href="https://t.me/Web3_developer"  >
                 <TelegramIcon className="iconSvg" />
               </a>
             </div>

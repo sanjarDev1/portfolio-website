@@ -21,7 +21,7 @@ function Project() {
                 <img
                   src={item.image}
                   className="projectImage"
-                  alt="portfolio image"
+                  rel="noreferrer"
                 />
                 <div className="cardTitles">
                   <div className="projectAbout">
@@ -29,10 +29,10 @@ function Project() {
                     <p className="projectDesc">{item.projectDesc}</p>
                   </div>
                   <div className="projectButtons">
-                    <a href={item.code} className="buttons" target="_blank">
+                    <a href={item.code} className="buttons" >
                       Source <GitHubIcon />
                     </a>
-                    <a href={item.demo} className="buttons" target="_blank">
+                    <a href={item.demo} className="buttons" >
                       Demo <LinkIcon />
                     </a>
                   </div>
