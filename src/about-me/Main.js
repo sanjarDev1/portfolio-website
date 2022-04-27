@@ -12,7 +12,7 @@ function Main() {
     <div className="about-info">
       {about.map((item, index) => (
         < div className="about-info2" key={index}>
-          <img className="myImage" src={item.myImage} alt='my image' />
+          <img className="myImage" src={item.myImage} alt='my face' />
           <span>
             <p className="aboutText">{item.text}</p>
           </span>
