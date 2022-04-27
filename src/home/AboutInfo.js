@@ -47,19 +47,19 @@ function AboutInfo() {
                 <a className="linkBtn" href={item.resume}   download  target="_blank" rel="noreferrer noopener"   ><FileDownloadIcon /> Portfolio</a>
             </div>
             <div className="socialNet">
-              <a className="links" href="https://github.com/sanjarDev1"  >
+              <a className="links" href="https://github.com/sanjarDev1" target="_blank" rel="noreferrer noopener" >
                 <GitHubIcon className="iconSvg" />
               </a>
-              <a className="links" href="https://www.linkedin.com/in/sanjarbek-qobulov-1778b2218/"  >
+              <a className="links" href="https://www.linkedin.com/in/sanjarbek-qobulov-1778b2218/" target="_blank" rel="noreferrer noopener" >
                 <LinkedInIcon className="iconSvg" />
               </a>
-              <a className="links" href="https://www.facebook.com/profile.php?id=100078891471037"  >
+              <a className="links" href="https://www.facebook.com/profile.php?id=100078891471037" target="_blank" rel="noreferrer noopener" >
                 <FacebookIcon className="iconSvg" />
               </a>
-              <a className="links" href="https://www.instagram.com/sanjarbekqobulov02/?hl=en"  >
+              <a className="links" href="https://www.instagram.com/sanjarbekqobulov02/?hl=en" target="_blank" rel="noreferrer noopener" >
                 <InstagramIcon className="iconSvg" />
               </a>
-              <a className="links" href="https://t.me/Web3_developer"  >
+              <a className="links" href="https://t.me/Web3_developer" target="_blank" rel="noreferrer noopener" >
                 <TelegramIcon className="iconSvg" />
               </a>
             </div>
