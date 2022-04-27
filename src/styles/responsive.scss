@@ -1,0 +1,855 @@
+// Colors
+
+$togglerMenu: #faff00;
+
+// home
+
+@media screen and (max-width:1200px){
+    
+    nav{
+        padding: 12px !important;
+        .navbar-brand{
+            font-size: 20px;
+            padding: 0 10px;
+        }   
+            .navbar-toggler{
+                background-color: $togglerMenu !important;
+                border-radius: 0;
+                span{
+                    font-size: 15px;
+
+                };
+            }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px 20px !important;
+                font-size: 18px !important;
+                text-align: center;
+            }
+        }
+    }
+    .aboutinfo{
+        .aboutinfo2{
+            display: flex !important;
+            padding: 75px 35px  ;
+
+            .side2{
+                .myImage{
+                    width: 320px !important;
+                }
+            }
+            .side1{
+                width: 100% !important;
+                h1{
+                    font-size: 50px !important;
+                }
+                p{
+                    font-size: 20px;
+                    width: 75% !important;
+                    margin: 15px 0 25px;
+                }
+                .buttons{
+                    .linkBtn{
+                        padding: 10px;
+                        font-size: 20px;
+                    }
+                }
+                .socialNet{
+                    .links{
+                        padding:0 10px 0 10px ;
+                       svg{
+                           font-size: 20px;
+                       }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+@media screen and (max-width:1024px){
+    
+    nav{
+        padding: 12px!important;
+        .navbar-brand{
+            font-size: 25px;
+            padding: 0 10px;
+        }
+        .navbar-toggler{
+            background-color: $togglerMenu;
+            border-radius: 0;
+            span{
+                font-size: 15px;
+            }
+        }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px 20px!important;
+                font-size: 18px!important;
+                text-align: center;
+            }
+        }
+    }
+    .aboutinfo{
+        .aboutinfo2{
+            display: flex;
+            padding: 75px 30px;
+            .side2{
+                .myImage{
+                    width: 320px;
+                }
+            }
+            .side1{
+                width: 100%;
+                h1{
+                    font-size: 35px!important;
+                }
+                p{
+                    font-size: 18px!important;
+                    width: 100%!important;
+                    margin: 15px 0 25px!important;
+                }
+                .buttons{
+                    .linkBtn{
+                        padding: 10px 10px;
+                        font-size: 20px;
+                    }
+                }
+                .socialNet{
+                    .links{
+                        padding:0 10px 0 10px ;
+                       svg{
+                           font-size: 20px;
+                       }
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+@media screen and (max-width:767px){    
+    
+    nav{
+        padding: 12px !important;
+        .navbar-brand{
+            font-size: 18px;
+            padding: 0 10px;
+        }   
+            .navbar-toggler{
+                background-color: $togglerMenu !important;
+                border-radius: 0;
+                span{
+                    font-size: 15px;
+
+                };
+            }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px 0 !important;
+                font-size: 17px !important;
+                text-align: center;
+            }
+        }
+    }
+    .aboutinfo{
+        .aboutinfo2{
+            width: 100% !important;
+            display: inline-block !important;
+            padding: 30px 0 30px 0 ;
+
+            .side2{
+                text-align: center;
+                .myImage{
+                    width: 320px !important;
+                }
+            }
+            .side1{
+                text-align: center !important;
+                width: 100% !important;
+                
+                h1{
+                    font-size: 35px ;
+                }
+                p{
+                    font-size: 22px;
+                    width: 100% !important;
+                    padding: 0 15px;
+                text-align: center;
+
+                    margin: 15px 0 25px;
+                }
+                .buttons{
+                    .linkBtn{
+                        padding: 10px;
+                        font-size: 20px;
+                    }
+                }
+                .socialNet{
+                    .links{
+                        padding:0 10px 0 10px ;
+                       
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+@media screen and (max-width:500px){
+    
+    nav{
+        padding: 12px !important;
+        .navbar-brand{
+            font-size: 18px;
+            padding: 0 10px;
+        }   
+            .navbar-toggler{
+                background-color: $togglerMenu !important;
+                border-radius: 0;
+                span{
+                    font-size: 15px;
+
+                };
+            }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px 0 !important;
+                font-size: 17px !important;
+                text-align: center;
+            }
+        }
+    }
+    .aboutinfo{
+        .aboutinfo2{
+            display: inline-block !important;
+            padding: 30px 0 30px 0 ;
+
+            .side2{
+                text-align: center;
+                .myImage{
+                    width: 210px !important;
+                }
+            }
+            .side1{
+                text-align: center;
+                width: 100%;
+                h1{
+                    font-size: 27px ;
+                }
+                p{
+                    font-size: 15px;
+                    width: 100% !important;
+                    padding: 0 15px;
+                    margin: 15px 0 25px;
+                }
+                .buttons{
+                    .linkBtn{
+                        padding: 10px;
+                        font-size: 15px;
+                    }
+                }
+                .socialNet{
+                    .links{
+                        padding:0 10px 0 10px ;
+                        
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+@media screen and (max-width:370px){
+    
+    nav{
+        padding: 12px !important;
+        .navbar-brand{
+            font-size: 18px;
+            padding: 0 10px;
+        }   
+            .navbar-toggler{
+                background-color: $togglerMenu !important;
+                border-radius: 0;
+                span{
+                    font-size: 15px;
+
+                };
+            }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px 0 !important;
+                font-size: 17px !important;
+                text-align: center;
+            }
+        }
+    }
+    .aboutinfo{
+        .aboutinfo2{
+            padding: 30px 0 30px 0 ;
+            display: inline-block !important;
+            .side2{
+                text-align: center;
+                .myImage{
+                    width: 180px !important;
+                }
+            }
+            .side1{
+                text-align: center;
+                width: 100%;
+                display: flex !important;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                h1{
+                    font-size: 27px ;
+                }
+                p{
+                    font-size: 15px;
+                    width: 100%;
+                    padding: 0 15px;
+                    margin: 15px 0 25px;
+                }
+                .buttons{
+                    .linkBtn{
+                        padding: 10px;
+                        font-size: 15px;
+                    }
+                }
+                .socialNet{
+                    .links{
+                        padding:0 10px 0 10px ;
+                        
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+@media (min-width:320px) and (max-width:330px){
+    
+    nav{
+        padding: 12px !important;
+        .navbar-brand{
+            font-size: 18px;
+            padding: 0 10px;
+        }   
+            .navbar-toggler{
+                background-color: $togglerMenu !important;
+                border-radius: 0;
+                span{
+                    font-size: 15px;
+
+                };
+            }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px 0 !important;
+                font-size: 17px !important;
+                text-align: center;
+            }
+        }
+    }
+    .aboutinfo{
+        .aboutinfo2{
+            display: inline-block !important;
+            padding: 0 ;
+            .side2{
+                text-align: center;
+                .myImage{
+                    width: 170px !important;
+                }
+            }
+            .side1{
+                text-align: center;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                h1{
+                    font-size: 25px ;
+                    padding: 0 5px;
+                }
+                p{
+                    font-size: 15px;
+                    width: 100%;
+                    padding: 0 5px;
+                    margin: 15px 0 25px;
+                }
+                .buttons{
+                    .linkBtn{
+                        padding: 10px;
+                        font-size: 15px;
+                    }
+                }
+                 .socialNet{
+                    .links{
+                        padding:0 10px 0 10px ;
+                        
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+//  Portfolio
+
+@media screen and (max-width:1200px){
+    .titles{
+        h3{
+            font-size: 35px !important;
+        }
+        p{
+            font-size: 25px !important;
+        }
+        
+    }
+    .row{
+        .col-md-12{
+            .projectCard{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .projectImage{
+                    width: 50%;
+                }
+                .cardTitles{
+                    margin: 30px 50px;
+                    .projectAbout{
+                        .projectName{
+                            font-size: 30px;
+                        }
+                        .projectDesc{
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .projectButtons{
+                    a{
+                        padding: 15px 10px !important;
+                        font-size:  22px !important;
+                        &:nth-child(2){
+                            margin-left: 16px !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(even){
+                .projectCard{
+                    .cardTitles{
+                        .projectAbout{
+                            .projectDesc{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1024px){
+    .titles{
+        h3{
+            font-size: 35px !important;
+        }
+        p{
+            font-size: 25px !important;
+        }
+        
+    }
+    .row{
+        .col-md-12{
+            padding: 15px;
+            .projectCard{
+                display: inline-block;
+                .projectImage{
+                    width: 100%;
+                }
+                .cardTitles{
+                    margin: 30px 0;
+                    .projectAbout{
+                        .projectName{
+                            font-size: 30px;
+                        }
+                        .projectDesc{
+                            font-size: 20px;
+                            width: 75%;
+                        }
+                    }
+                }
+                .projectButtons{
+                    a{
+                        padding: 15px 10px !important;
+                        font-size:  18px !important;
+                        &:nth-child(2){
+                            margin-left: 10px !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(even){
+                .projectCard{
+                    .cardTitles{
+                        .projectAbout{
+                            .projectDesc{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:767px){
+    .titles{
+        h3{
+            font-size: 35px !important;
+        }
+        p{
+            font-size: 25px !important;
+        }
+        
+    }
+    .row{
+        .col-md-12{
+            padding-top: 0;
+            .projectCard{
+                display: inline-block;
+                .projectImage{
+                    width: 100%;
+                }
+                .cardTitles{
+                    margin: 30px 0;
+                    .projectAbout{
+                        .projectName{
+                            font-size: 30px;
+                        }
+                        .projectDesc{
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .projectButtons{
+                    a{
+                        padding: 15px 10px !important;
+                        font-size:  18px !important;
+                        &:nth-child(2){
+                            margin-left: 10px !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(even){
+                .projectCard{
+                    .cardTitles{
+                        .projectAbout{
+                            .projectDesc{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .titles{
+        h3{
+            font-size: 35px !important;
+        }
+        p{
+            font-size: 25px !important;
+        }
+        
+    }
+    .row{
+        .col-md-12{
+            padding-top: 0;
+            .projectCard{
+                display: inline-block;
+                .projectImage{
+                    width: 100%;
+                }
+                .cardTitles{
+                    margin: 30px 0;
+                    .projectAbout{
+                        .projectName{
+                            font-size: 25px;
+                        }
+                        .projectDesc{
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .projectButtons{
+                    a{
+                        padding: 15px 10px !important;
+                        font-size:  18px !important;
+                        &:nth-child(2){
+                            margin-left: 10px !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(even){
+                .projectCard{
+                    .cardTitles{
+                        .projectAbout{
+                            .projectDesc{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:370px){
+    .titles{
+        h3{
+            font-size: 30px !important;
+        }
+        p{
+            font-size: 20px !important;
+        }
+        
+    }
+    .row{
+        .col-md-12{
+            padding-top: 0;
+            .projectCard{
+                display: inline-block;
+                .projectImage{
+                    width: 100%;
+                }
+                .cardTitles{
+                    margin: 30px 0;
+                    .projectAbout{
+                        .projectName{
+                            font-size: 20px;
+                        }
+                        .projectDesc{
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .projectButtons{
+                    a{
+                        padding: 13px 10px !important;
+                        font-size:  15px !important;
+                        &:nth-child(2){
+                            margin-left: 10px !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(even){
+                .projectCard{
+                    .cardTitles{
+                        .projectAbout{
+                            .projectDesc{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:320px) and (max-width:330px){
+    .titles{
+        h3{
+            font-size: 30px !important;
+        }
+        p{
+            font-size: 20px !important;
+        }
+        
+    }
+    .row{
+        .col-md-12{
+            padding-top: 0;
+            .projectCard{
+                display: inline-block;
+                .projectImage{
+                    width: 100%;
+                }
+                .cardTitles{
+                    margin: 30px 0;
+                    .projectAbout{
+                        .projectName{
+                            font-size: 20px;
+                        }
+                        .projectDesc{
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .projectButtons{
+                    a{
+                        padding: 13px 10px !important;
+                        font-size:  15px !important;
+                        &:nth-child(2){
+                            margin-left: 10px !important;
+                        }
+                    }
+                }
+            }
+            &:nth-child(even){
+                .projectCard{
+                    .cardTitles{
+                        .projectAbout{
+                            .projectDesc{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//  About me
+
+@media screen and (max-width:1200px){
+    .about-info{
+        .about-info2{
+        display: inline-block ;
+        padding: 20px 180px ;
+        img{
+            width: 100% !important;
+        }
+        span{
+            .aboutText{
+                padding:15px 0px;
+                font-size: 22px;
+            }
+        }
+    }}
+    }
+
+@media screen and (max-width:1024px){
+    .about-info{
+        .about-info2{
+        display: inline-block;
+        padding: 20px 150px ;
+        img{
+            width: 100% !important;
+        }
+        span{
+            .aboutText{
+                padding:15px 0px;
+                font-size: 20px;
+            }
+        }
+    }
+    }}
+
+@media screen and (max-width:767px){
+    .about-info{
+        .about-info2{
+        display: inline-block;
+        padding: 20px 100px ;
+        img{
+            width: 100% !important;
+        }
+        span{
+            .aboutText{
+                padding:15px 0px;
+                font-size: 20px;
+            }
+        }
+    }
+    }}
+
+@media screen and (max-width:500px){
+    .about-info{
+        .about-info2{
+        display: inline-block;
+        padding: 0 10px ;
+        img{
+            width: 100% !important;
+        }
+        span{
+            .aboutText{
+                padding:15px 0;
+                font-size: 20px;
+            }
+        }
+    }}
+    }
+
+@media screen and (max-width:370px){
+    .about-info{
+        .about-info2{
+        display: inline-block;
+        padding: 0 10px ;
+        img{
+            width: 100% !important;
+        }
+        span{
+            .aboutText{
+                padding:15px 0;
+                font-size: 17px;
+            }
+        }
+    }
+}
+    }
+    
+
+@media (min-width:320px) and (max-width:330px){
+.about-info{
+    .about-info2{
+
+        display: inline-block ;
+        padding: 0 10px ;
+        img{
+            width: 100% !important;
+        }
+        span{
+            .aboutText{
+                padding:15px 0;
+                font-size: 17px;
+            }
+        }
+    }
+}
+}
+
+// Footer
+@media screen and (max-width:500px){
+    .footer{
+        p{
+            font-size: 13px;
+        }
+    }
+}

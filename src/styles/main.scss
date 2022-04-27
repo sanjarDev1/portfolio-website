@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+$homeButtonColor: #2B2B2B;
+$homeButtonColor2: #FAFF00;
+$socialIcons: #FAFF00;
+
+// Mixins
+@mixin PageTitle1 {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Montserrat', 'sans-serif';
+    letter-spacing: 2px;
+    color: white;
+    margin: 0;
+       
+}
+
+@mixin PageTitle2 {
+    font-size: 30px;
+    color: $homeButtonColor2;
+    font-family: 'Montserrat', 'sans-serif';
+    letter-spacing: 0.7px;
+}
+
+
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: #000000!important;
+    overflow-x: hidden;
+}
+//scrollbar
+::-webkit-scrollbar{
+    width: 3px !important;
+}
+::-webkit-scrollbar-thumb{
+    background-color: $socialIcons;
+    border-radius: 50% !important;
+}
+::-webkit-scrollbar-track{
+    background-color: #000000;
+}
+// nav  
+nav{
+    padding: 15px 80px !important;
+    .navbar-brand{
+        color: #ffffff !important;
+        font-family: 'Montserrat', "sans-serif";
+        font-size: 25px;
+        b{
+            font-family: 'Montserrat', 'sans-serif';
+            font-weight: 700;
+        }
+    }
+    .navbar-nav{
+        margin-left: auto;
+
+        .nav-item{
+            margin: 20px;
+            font-size: 20px;
+            font-family: 'Montserrat', 'sans-serif';
+            font-weight: 500;
+            a{
+                color: #949494 !important;
+                text-decoration: none;
+                transition: 0.2s ease;
+                -webkit-transition: 0.2s ease;
+                &:hover{
+                    color: #ffffff !important;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+nav .fixed{
+    // padding: 15px 80px !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: #000000cf;
+    box-shadow: 0 5px 15px #0c0c0cde;
+}
+
+// about
+
+.aboutinfo{
+    .side1{
+        width: 55%;
+        margin: 10px 0;
+        .title{
+            font-size: 70px;
+            font-family: 'Montserrat', 'sans-serif';
+            color: #ffffff;
+            font-weight: 700;
+        }
+        .description{
+            width: 75%;
+            color: #AAAAAA;
+            margin: 15px 3px 60px;
+            font-size: 20px;
+            font-family: 'Montserrat', 'sans-serif';
+
+        }
+        .buttons{
+            .linkBtn{
+                background-color: $homeButtonColor;
+                padding: 17px 40px;
+                color: #ffffff;
+                font-size: 20px;
+                text-decoration: none;
+                font-family: 'Montserrat', 'sans-serif';
+                font-weight: 500;
+                &:nth-child(2){
+                    margin-left: 10px;
+                    background-color: $homeButtonColor2;
+                }
+            }
+        }
+        .socialNet{
+            margin-top: 45px;
+            .links{
+                padding: 0 30px 0 0;
+                .iconSvg{
+                    font-size: 35px;
+                    color: #ffffff;
+                    &:hover{
+                        color:$socialIcons ;
+                    }
+                }
+            }
+        }
+    }
+    .side2{
+        .myImage{
+            width: 90%;
+
+        }
+    }
+    .aboutinfo2{
+        display: flex !important;
+    justify-content: space-around !important;
+    flex-direction: row-reverse !important;
+    padding: 70px ;
+    }
+}
+// portfolios
+.titles{
+    text-align: center;
+    margin-top: 75px;
+    .title1{
+        @include PageTitle1();
+    }
+    .title2{
+        @include PageTitle2()
+    }
+}
+.row{
+    .col-md-12{
+        padding-top: 50px;
+        .projectCard{
+            display: flex;
+            justify-content: space-between;
+            margin: 50px 0;
+            .projectImage{
+                width:50% ;
+
+            }
+            .cardTitles{
+                margin: 30px 50px;
+                .projectAbout{
+                    .projectName{
+                        color: white;
+                        font-weight: 600;
+                        font-family: 'Montserrat', 'sans-serif';
+                    }
+                    .projectDesc{
+                        color: #AAAAAA;
+                        font-family: 'Montserrat', 'sans-serif';
+                        margin: 10px 0 50px;
+                    }
+                }
+                .projectButtons{
+                    .buttons{
+                        background-color: #2B2B2B;
+                        padding: 17px  35px;
+                        color: #ffffff;
+                        font-size: 20px;
+                        text-decoration: none;
+                        font-family: 'Montserrat', 'sans-serif';
+                        font-weight: 500;
+                        .svg{
+                            margin: 0 10px 0;
+                        }
+                        &:nth-child(2){
+                            background-color: $homeButtonColor2;
+                            margin-left:30px ;
+                        }
+                    }
+                }
+            }
+        }
+        &:nth-child(even){
+            .projectCard{
+                flex-direction: row-reverse;
+                .cardTitles{
+                    margin: 30px 0;
+                    .projectAbout{
+                        .projectDesc{
+                            width: 75%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// about-me
+
+.about-info{
+   
+    .about-info2{
+        padding: 85px;
+        display: flex;
+
+        .myImage{
+            width: 100%;
+        }
+        span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .aboutText{
+            padding: 0 0 30px 45px;
+            font-size: 23px;
+            width: 95%;
+            color: white;
+            font-family: 'Montserrat', 'sans-serif';
+
+        }
+    }
+}
+}
+
+// footer
+.footer{
+    padding: 20px 0 0 ;
+    border-top: 1px solid #aaaaaa;
+    text-align: center;
+    p{
+        font-size: 17px;
+        color: white;
+        font-family: 'Montserrat', 'sans-serif';
+        svg{
+            color: rgb(255,0,0);
+        }
+    }
+}
