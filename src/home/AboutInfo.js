@@ -6,6 +6,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TelegramIcon from "@mui/icons-material/Telegram";
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import Reveal from 'react-reveal/Reveal';
 
 
@@ -17,6 +18,10 @@ function AboutInfo() {
       setPortfolios(snapshot.docs.map((doc) => doc.data()))
     );
   }, []);
+
+  
+
+    
 
   return (
     <div className="aboutinfo">
@@ -39,9 +44,7 @@ function AboutInfo() {
               <Link className="linkBtn" to="/">
                 About me
               </Link>
-              <Link className="linkBtn" to="/portfolio">
-                Portfolio
-              </Link>
+                <a className="linkBtn" href={item.resume}  download target='_blank' ><FileDownloadIcon /> Portfolio</a>
             </div>
             <div className="socialNet">
               <a className="links" href="#" target="_blank">
