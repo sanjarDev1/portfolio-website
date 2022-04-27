@@ -32,7 +32,7 @@ function AboutInfo() {
               className="myImage"
               src={item.image}
               style={{ width: "350px" }}
-              rel="noreferrer"
+              alt='image'
             />
           </div>
           <div className="side1">

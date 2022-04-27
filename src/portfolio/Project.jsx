@@ -21,7 +21,7 @@ function Project() {
                 <img
                   src={item.image}
                   className="projectImage"
-                  rel="noreferrer"
+                  alt="myimage"
                 />
                 <div className="cardTitles">
                   <div className="projectAbout">
