@@ -29,10 +29,10 @@ function Project() {
                     <p className="projectDesc">{item.projectDesc}</p>
                   </div>
                   <div className="projectButtons">
-                    <a href={item.code} className="buttons" >
+                    <a href={item.code} className="buttons " >
                       Source <GitHubIcon />
                     </a>
-                    <a href={item.demo} className="buttons" >
+                    <a href={item.demo} className="buttons bg-success" >
                       Demo <LinkIcon />
                     </a>
                   </div>

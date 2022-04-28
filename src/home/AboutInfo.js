@@ -44,10 +44,10 @@ function AboutInfo() {
               <Link className="linkBtn" to="/">
                 About me
               </Link>
-                <a className="linkBtn" href={item.resume}   download  target="_blank" rel="noreferrer noopener"   ><FileDownloadIcon /> Portfolio</a>
+                <a className="linkBtn bg-success" href={item.resume}   download  target="_blank" rel="noreferrer noopener"   ><FileDownloadIcon /> Portfolio</a>
             </div>
             <div className="socialNet">
-              <a className="links" href="https://github.com/sanjarDev1" target="_blank" rel="noreferrer noopener" >
+              <a className="links " href="https://github.com/sanjarDev1" target="_blank" rel="noreferrer noopener" >
                 <GitHubIcon className="iconSvg" />
               </a>
               <a className="links" href="https://www.linkedin.com/in/sanjarbek-qobulov-1778b2218/" target="_blank" rel="noreferrer noopener" >
